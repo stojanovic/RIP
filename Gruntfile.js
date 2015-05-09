@@ -95,6 +95,6 @@ module.exports = function(grunt) {
 	});
 
 	// Define tasks
-	grunt.registerTask('default', ['clean', 'jshint', 'uglify', 'string-replace', 'shell']);
+	grunt.registerTask('default', ['clean', 'jshint', 'uglify', 'string-replace']);
 
 };
